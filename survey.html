@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <h1>Mental Health Support Platform</h1>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="survey.html">Survey</a>
+                <a href="counselor.html">Counselor</a>
+            </nav>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="survey-form">
+            <h2>Survey Form</h2>
+            <form id="surveyForm">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required placeholder="Enter your age">
+                
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                
+                <label for="mentalHealth">How are you feeling?</label>
+                <textarea id="mentalHealth" name="mentalHealth" required placeholder="Share how you are feeling..."></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+            <div id="message" class="hidden">
+                <p>Thank you for sharing your details. You will be redirected shortly.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mental Health Support</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
