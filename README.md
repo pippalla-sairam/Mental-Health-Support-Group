@@ -12,9 +12,7 @@ A web-based platform designed to provide awareness, support, and guidance for in
 
 ## Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript, Bootstrap  
-- **Backend:** Node.js, Express.js (optional for handling form submissions)  
-- **Database:** MongoDB (if storing user responses)  
+- **Frontend:** HTML, CSS, JavaScript  
 
 ## Installation
 
@@ -25,19 +23,7 @@ A web-based platform designed to provide awareness, support, and guidance for in
    cd mental-health-platform
    ```
 
-2. If using a backend, install dependencies:
-
-   ```sh
-   npm install
-   ```
-
-3. Start the server (if applicable):
-
-   ```sh
-   npm start
-   ```
-
-4. Open `index.html` in a browser to access the platform.
+Open `index.html` in a browser to access the platform.
 
 ## Usage
 
