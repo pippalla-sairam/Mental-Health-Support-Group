@@ -41,6 +41,3 @@ Open `index.html` in a browser to access the platform.
 
 Contributions are welcome! Feel free to submit a pull request.
 
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
